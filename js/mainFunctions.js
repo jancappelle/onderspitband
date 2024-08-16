@@ -52,7 +52,7 @@ $(function () {
 // Listener pour chargement adresse mailto
 window.addEventListener("load", function () {
   if (document.getElementById('insertMail')) {
-    let name = "Het Onderspit" ; // Update yours informations here
+    let name = "hallo" ; // Update yours informations here
     let domain = "hetonderspit.be" ; // Update yours informations here
     //let subject = "subject=Formulaire Tuco" ;
     let divMail = document.getElementById('insertMail');
