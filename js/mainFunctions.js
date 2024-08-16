@@ -325,4 +325,8 @@ $(function () {
       event.preventDefault();
       window.location.href = "https://www.instagram.com/hetonderspit";
     });
+        $('.spotify').on('click', function(event) {
+      event.preventDefault();
+      window.location.href = "https://open.spotify.com/artist/6Ct2WdqmkzGpDlHXruj1tv";
+    });
 })
