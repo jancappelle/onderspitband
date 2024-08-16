@@ -52,8 +52,8 @@ $(function () {
 // Listener pour chargement adresse mailto
 window.addEventListener("load", function () {
   if (document.getElementById('insertMail')) {
-    let name = "contact" ; // Update yours informations here
-    let domain = "yourbandname.com" ; // Update yours informations here
+    let name = "Het Onderspit" ; // Update yours informations here
+    let domain = "hetonderspit.be" ; // Update yours informations here
     //let subject = "subject=Formulaire Tuco" ;
     let divMail = document.getElementById('insertMail');
     let newAhref = document.createElement('a');
@@ -313,16 +313,16 @@ $(function () {
 
 // Locations
 $(function () {
-    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/"});
+    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/hetonderspit"});
 })
 // Location socials
 $(function () {
     $('.facebook').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://facebook.com/";
+      window.location.href = "https://facebook.com/hetonderspit";
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.instagram.com/";
+      window.location.href = "https://www.instagram.com/hetonderspit";
     });
 })
