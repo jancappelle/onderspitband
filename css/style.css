@@ -339,7 +339,7 @@ p.miniPara {
 }
 .imgContent .card p:first-of-type {
   font-size: 1.3rem;
-  color: #FEFEFE;
+  color: v;
 }
 .imgContent .card::before {
   content: url("../img/instagram-min-white.svg");
@@ -355,7 +355,7 @@ p.miniPara {
   max-width: 250px;
   height: 250px;
   opacity: 0;
-  background-color: rgba(244, 89, 30, 0.7);
+  background-color: fdccc9;
   z-index: 2;
   transition: all ease-in-out 150ms;
 }
