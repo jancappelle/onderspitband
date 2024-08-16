@@ -342,7 +342,7 @@ p.miniPara {
   color: v;
 }
 .imgContent .card::before {
-  content: url("../img/logoweb.png");
+  content: url("../img/instagram-min-white.svg");
   position: absolute;
   display: flex;
   justify-content: center;
