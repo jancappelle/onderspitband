@@ -355,7 +355,7 @@ p.miniPara {
   max-width: 250px;
   height: 250px;
   opacity: 0;
-  background-color: fdccc9;
+  background-color: #fdccc9;
   z-index: 2;
   transition: all ease-in-out 150ms;
 }
