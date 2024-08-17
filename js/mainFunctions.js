@@ -315,6 +315,9 @@ $(function () {
 $(function () {
     $(".card").on('click', () => {window.location.href = "https://www.instagram.com/hetonderspit"});
 })
+$(function () {
+    $(".card2").on('click', () => {window.location.href = "#contact"});
+})
 // Location socials
 $(function () {
     $('.facebook').on('click', function(event) {
