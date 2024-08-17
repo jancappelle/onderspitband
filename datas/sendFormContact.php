@@ -8,25 +8,24 @@
 
 				// text to send
 				$texte = "Hi there,<br /><br />";
-				$texte = $texte . "Message from < yoursitename >.<br />";
-				$texte = $texte . "The elements entered in the form are as follows :<br />";
-				$texte = $texte . "Name : $nom<br />";
-				$texte = $texte . "Phone number : $telephone<br />";
-				$texte = $texte . "Email :  $mail<br /><br />";
-				$texte = $texte . "Message : $message<br /><br />";
-				$texte = $texte . "Newsletter subscription : $newsletter<br /><br />";
+				$texte = $texte . "Mail van < yoursitename >.<br />";
+				$texte = $texte . "Antwoordvelden :<br />";
+				$texte = $texte . "Naam : $nom<br />";
+				$texte = $texte . "Telefoon : $telephone<br />";
+				$texte = $texte . "E-mail :  $mail<br /><br />";
+				$texte = $texte . "Boodschap : $message<br /><br />";
 				$texte = $texte . "This is an automatic message, do not reply to it.";
 
 				$texte = stripslashes($texte);
 
 				// Recipient and subject of the message
-				$destinataire = "contact@gmail.com"; // input your email here
-				$objet = "Message from your < site name >"; // input your domain name here
+				$destinataire = "hallo@hetonderspit.be"; // input your email here
+				$objet = "Boodschap van op de onderspitsite"; // input your domain name here
 
 				// Headers
 	      $headers = array(
 	                      'Content-type' => 'text/html',
-	                      'From' => 'form@yourbandname.com', // input your email from here
+	                      'From' => 'hallo@hetonderspit.be', // input your email from here
 	                      'X-Mailer' => 'PHP/' . phpversion()
 	                  );
 
@@ -35,12 +34,12 @@
 					$conf = ini_set('mail', 'mail.gmail.com'); // update yours informations here
 					$sending_ok = mail($destinataire, $objet, $texte, $headers);
 					if ($sending_ok) {
-							echo "<p class=\"hardLight\">Thanks for your message !<br /><br />We will get back to you very soon.</p>";
+							echo "<p class=\"hardLight\">Merci voor je bericht!<br /><br />We proberen snel te antwoorden.</p>";
 						}
 					else {
-							echo "<p class=\"hardLight\">There seems to be a problem ...</p>";
+							echo "<p class=\"hardLight\">Tiens, het lukt precies niet om te versturen ...</p>";
 						}
 
 				} else {
-					echo "<p class=\"hardLight\">There seems to be a problem with the anti robot control ...</p>";
+					echo "<p class=\"hardLight\">Je hebt blijkbaar de antirobotvraag niet goed beantwoord...</p>";
 				}
