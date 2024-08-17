@@ -379,22 +379,22 @@ p.miniPara {
   margin: auto;
   width: 80%;
 }
-.imgContent2 .card {
+.imgContent2 .card2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
 }
-.imgContent2 .card p {
+.imgContent2 .card2 p {
   text-align: center;
   margin: 0;
   padding: 0;
 }
-.imgContent2 .card p:first-of-type {
+.imgContent2 .card2 p:first-of-type {
   font-size: 1.3rem;
   color: v;
 }
-.imgContent2 .card::before {
+.imgContent2 .card2::before {
   content: url("../img/minilogo3.png");
   position: absolute;
   display: flex;
@@ -412,7 +412,7 @@ p.miniPara {
   z-index: 2;
   transition: all ease-in-out 150ms;
 }
-.imgContent2 .card:hover::before {
+.imgContent2 .card2:hover::before {
   opacity: 1;
   transition: all ease-in-out 150ms;
 }
