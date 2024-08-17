@@ -371,6 +371,60 @@ p.miniPara {
   border-radius: 15px;
 }
 
+.imgContent2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+.imgContent2 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.imgContent2 .card p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.imgContent2 .card p:first-of-type {
+  font-size: 1.3rem;
+  color: v;
+}
+.imgContent2 .card::before {
+  content: url("../img/minilogo3.png");
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  opacity: 0;
+  background-color: #fdccc9;
+  z-index: 2;
+  transition: all ease-in-out 150ms;
+}
+.imgContent2 .card:hover::before {
+  opacity: 1;
+  transition: all ease-in-out 150ms;
+}
+.imgContent2 img {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin: 15px auto;
+  border-radius: 15px;
+}
+
+
 p.miniTitle {
   font-size: 4vh;
   line-height: 40px;
