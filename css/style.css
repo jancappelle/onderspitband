@@ -342,7 +342,7 @@ p.miniPara {
   color: v;
 }
 .imgContent .card::before {
-  content: url("../img/weblogo.png");
+  content: url("../img/minilogo.png");
   position: absolute;
   display: flex;
   justify-content: center;
