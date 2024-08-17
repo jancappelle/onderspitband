@@ -395,7 +395,7 @@ p.miniPara {
   color: v;
 }
 .imgContent2 .card2::before {
-  content: url("../img/platenhoesje");
+  content: url("../img/platenhoesje.png");
   position: absolute;
   display: flex;
   justify-content: center;
