@@ -229,7 +229,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   bottom: 20%;
-  font-size: 7vh;
+  font-size: 14vh;
   font-weight: 900;
   color: #FFFF67;
   text-transform: uppercase;
@@ -270,7 +270,7 @@ h2#slogan {
   left: 50%;
   transform: translateX(-50%);
   bottom: 10%;
-  font-size: 5vh;
+  font-size: 10vh;
   font-weight: 600;
   color: #ffff67;
   opacity: 0;
