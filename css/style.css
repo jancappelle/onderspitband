@@ -887,7 +887,7 @@ button[name=backSite] {
   max-height: 100vh;
   color: #9fa0ac;
   background: url("../img/LPschuif.jpg");
-  width: 100%;
+  width: 10%;
   background-position: center;
   background-color: transparent;
 }
