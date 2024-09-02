@@ -877,6 +877,22 @@ button[name=backSite] {
   .date table td:nth-of-type(even) {
     padding-left: 1px;
   }
+
+ 
+.mainView {
+  position: relative;
+  min-height: 100vh;
+  max-height: 100vh;
+  color: #9fa0ac;
+  background: url("../img/achtergrond6.png");
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+
+
+  
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
   form.newsletterForm input[type=email] {
