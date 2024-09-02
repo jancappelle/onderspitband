@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/jdj1hzi.css");
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +26,7 @@ a {
 }
 
 body {
-  font-family: "Obviously", sans-serif;
+  font-family: "Obviously Condensed", sans-serif;
   font-display: swap;
   font-size: 1rem;
   color: #FEFEFE;
