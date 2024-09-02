@@ -570,7 +570,7 @@ form.newsletterForm input[type=submit]:hover {
   width: 70%;
   border: none;
   margin: 15px 0 15px 0;
-  font-family: inherit;
+  font-family: inter;
   outline: none;
 }
 .contactForm input {
