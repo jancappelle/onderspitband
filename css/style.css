@@ -794,18 +794,20 @@ button[name=backSite] {
   h1 {
     width: 90%;
     font-size: 8vh;
-    bottom: 48%;
+    left: 10%
+    bottom: 20%;
   }
     h1#tweedelijn {
     width: 90%;
     font-size: 8vh;
-    bottom: 35%;
+    left: 40%
+    bottom: 20%;
   }
 
   h2#slogan {
     width: 90%;
     font-size: 8vh;
-    bottom: 20%;
+    bottom: 10%;
   }
 
   .shareBtn {
