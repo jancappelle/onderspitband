@@ -257,8 +257,10 @@ h1 {
   }
 }
 h2 {
+  font-family: obviously-condensed, sans-serif;
   font-size: 2rem;
-}
+  color: #F9F964;
+  }
 
 h2#slogan {
   position: absolute;
