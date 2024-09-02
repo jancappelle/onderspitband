@@ -888,7 +888,7 @@ button[name=backSite] {
   max-height: 100vh;
   color: #9fa0ac;
   background: url("../img/LPschuif.jpg");
-  width: 10%;
+  background-size: 75% ;
   background-position: center;
   background-color: transparent;
 }
