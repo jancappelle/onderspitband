@@ -882,15 +882,7 @@ button[name=backSite] {
   }
 
  
-.mainView {
-  min-height: 100vh;
-  max-height: 100vh;
-  color: #9fa0ac;
-  background: url("../img/LPschuif.jpg") no-repeat;
-  background-size: 100% ;
-  background-position: top;
-  background-color: transparent;
-}
+
 
 
 
