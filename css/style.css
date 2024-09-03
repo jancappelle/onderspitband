@@ -322,7 +322,7 @@ h2#slogan {
   }
 }
 p {
-  font-family: inter;
+  font-family: Inter,sans-serif;
   color: #ffffff;
   text-align: center;
   line-height: 30px;
@@ -755,7 +755,7 @@ button[name=backSite] {
 }
 
 .animatableY {
-  opacity: 0;
+   opacity: 0;
   transform: translate3d(0, 3vh, 0);
   transition: all ease-in-out 1s;
 }
