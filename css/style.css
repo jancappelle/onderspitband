@@ -808,7 +808,7 @@ button[name=backSite] {
     width: 90%;
     font-size: 8vh;
     bottom: 10%;
-    text-align: center;
+    left: 50%;
   }
 
   .shareBtn {
@@ -889,7 +889,7 @@ button[name=backSite] {
   color: #9fa0ac;
   background: url("../img/LPschuif.jpg") no-repeat;
   background-size: 100% ;
-  background-position: center;
+  background-position: top;
   background-color: transparent;
 }
 
