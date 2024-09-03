@@ -883,7 +883,6 @@ button[name=backSite] {
 
  
 .mainView {
-  position: relative;
   min-height: 100vh;
   max-height: 100vh;
   color: #9fa0ac;
