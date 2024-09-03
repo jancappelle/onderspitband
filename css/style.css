@@ -822,9 +822,7 @@ button[name=backSite] {
   background-color: transparent;
 }
   
-  .shareBtn {
-    display: none;
-  }
+
 
   footer .socialBanner {
     display: none;
