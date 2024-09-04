@@ -794,13 +794,13 @@ button[name=backSite] {
   h1 {
     width: 70%;
     font-size: 8vh;
-    left: 30%;
-    bottom: 25%;
+    left: 50%;
+    bottom: 35%;
   }
     h1#tweedelijn {
     width: 70%;
     font-size: 8vh;
-    left: 62%;
+    left: 50%;
     bottom: 25%;
   }
 
