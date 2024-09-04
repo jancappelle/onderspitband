@@ -762,7 +762,7 @@ button[name=backSite] {
 
 .animatableX {
   opacity: 0;
-  transform: translate3d(-3vw, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition: all ease-in-out 1s;
 }
 
