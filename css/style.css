@@ -807,7 +807,7 @@ button[name=backSite] {
   h2#slogan {
     width: 70%;
     font-size: 6vh;
-    bottom: 12%;
+    bottom: 16%;
     left: 50%;
   }
   
@@ -823,7 +823,8 @@ button[name=backSite] {
 }
   
   .shareBtn {
-    bottom: 45%;
+  left: 50%;
+  bottom: 45%;
   }
 
   section {
