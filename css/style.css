@@ -795,19 +795,19 @@ button[name=backSite] {
     width: 70%;
     font-size: 8vh;
     left: 50%;
-    bottom: 35%;
+    bottom: 30%;
   }
     h1#tweedelijn {
     width: 70%;
     font-size: 8vh;
     left: 50%;
-    bottom: 25%;
+    bottom: 23%;
   }
 
   h2#slogan {
     width: 70%;
-    font-size: 8vh;
-    bottom: 15%;
+    font-size: 6vh;
+    bottom: 12%;
     left: 50%;
   }
   
