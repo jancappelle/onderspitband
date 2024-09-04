@@ -322,14 +322,14 @@ $(function () {
 $(function () {
     $('.facebook').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://facebook.com/hetonderspit";
+      window.open("https://facebook.com/hetonderspit", '_blank');
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.instagram.com/hetonderspit";
+      window.open("https://www.instagram.com/hetonderspit", '_blank');
     });
         $('.spotify').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://open.spotify.com/artist/6Ct2WdqmkzGpDlHXruj1tv";
+      window.open("https://open.spotify.com/artist/6Ct2WdqmkzGpDlHXruj1tv", '_blank');
     });
 })
