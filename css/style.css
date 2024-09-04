@@ -823,7 +823,7 @@ button[name=backSite] {
 }
   
   .shareBtn {
-    display: none;
+    bottom: 45%;
   }
 
   section {
