@@ -795,13 +795,13 @@ button[name=backSite] {
     width: 70%;
     font-size: 8vh;
     left: 50%;
-    bottom: 30%;
+    bottom: 28%;
   }
     h1#tweedelijn {
     width: 70%;
     font-size: 8vh;
     left: 50%;
-    bottom: 23%;
+    bottom: 22%;
   }
 
   h2#slogan {
@@ -823,8 +823,8 @@ button[name=backSite] {
 }
   
   .shareBtn {
-  left: 50%;
-  top: 55%;
+  left: 40%;
+  top: 45%;
   }
 
   section {
