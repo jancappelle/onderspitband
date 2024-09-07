@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 21.9 21.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Capa_1">
+      <sodipodi:namedview id="namedview45" bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" inkscape:current-layer="Capa_1" inkscape:cx="10.925132" inkscape:cy="10.927016" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="713" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="0" inkscape:window-y="27" inkscape:zoom="10.798938" objecttolerance="10" pagecolor="#ffffff" showgrid="false"/>
+      <path class="cls-1" d="M11,.2C5.1.2.3,5,.3,10.9s4.8,10.7,10.7,10.7,10.7-4.8,10.7-10.7S16.9.2,11,.2ZM11,4.1c.8,0,1.4.6,1.4,1.4s-.6,1.4-1.4,1.4-1.4-.6-1.4-1.4.6-1.4,1.4-1.4ZM13.1,16.1c0,.3-.2.5-.5.5h-3.2c-.3,0-.5-.2-.5-.5v-.7c0-.3.2-.5.5-.5h.5v-4.8h-.2c-.3,0-.5-.2-.5-.5v-.6c0-.3.2-.5.5-.5h2.6c.3,0,.5.2.5.5v.6c0,.3-.2.5-.5.5h-.2v4.8h.5c.3,0,.5.2.5.5v.7Z"/>
+    </g>
+  </g>
+</svg>
